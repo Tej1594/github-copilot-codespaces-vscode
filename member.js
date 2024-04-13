@@ -1,11 +1,9 @@
 function skillMember() {
-  return {
-    id: 1,
-    name: 'member',
-    skills: [
-      { id: 1, name: 'skill1' },
-      { id: 2, name: 'skill2' },
-      { id: 3, name: 'skill3' },
-    ],
-  };
+    var member = document.getElementById("member");
+    member.style.color = "red";
+    member.style.backgroundColor = "black";
+    member.style.fontSize = "30px";
+    member.style.fontFamily = "Arial";
+    member.style.fontWeight = "bold";
+    member.style.textAlign = "center";
 }
